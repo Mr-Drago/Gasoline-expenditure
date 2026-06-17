@@ -105,6 +105,80 @@ const databaseAutos = [
                 }
               }
             ]
+          },
+          {
+            "model_name": "Liberty",
+            "decade": "2000s",
+            "segment": "Mid-size SUV",
+            "years_produced": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+            "variants": [
+              {
+                "engine": "3.7L V6",
+                "transmission": "Automatic 4-speed",
+                "fuel_economy_kpl": {
+                  "city": 7.2,
+                  "highway": 10.6,
+                  "combined": 8.5
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Grand Cherokee",
+            "decade": "2010s",
+            "segment": "Mid-size SUV",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "3.6L V6 Pentastar",
+                "transmission": "Automatic 8-speed",
+                "fuel_economy_kpl": {
+                  "city": 7.6,
+                  "highway": 11.5,
+                  "combined": 9.2
+                }
+              },
+              {
+                "engine": "5.7L V8 HEMI",
+                "transmission": "Automatic 8-speed",
+                "fuel_economy_kpl": {
+                  "city": 6.4,
+                  "highway": 10.2,
+                  "combined": 7.8
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ram",
+        "models": [
+          {
+            "model_name": "1500 / 2500",
+            "decade": "2010s",
+            "segment": "Full-size Pickup",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "5.7L V8 HEMI",
+                "transmission": "Automatic 8-speed",
+                "fuel_economy_kpl": {
+                  "city": 6.8,
+                  "highway": 10.6,
+                  "combined": 8.3
+                }
+              },
+              {
+                "engine": "3.6L V6 Pentastar",
+                "transmission": "Automatic 8-speed",
+                "fuel_economy_kpl": {
+                  "city": 8.1,
+                  "highway": 11.9,
+                  "combined": 9.6
+                }
+              }
+            ]
           }
         ]
       }
@@ -147,6 +221,58 @@ const databaseAutos = [
                   "city": 23.2,
                   "highway": 21.5,
                   "combined": 22.4
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Hilux",
+            "decade": "2010s",
+            "segment": "Mid-size Pickup",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "2.5L D-4D Diesel",
+                "transmission": "Manual 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 10.2,
+                  "highway": 14.0,
+                  "combined": 11.7
+                }
+              },
+              {
+                "engine": "4.0L V6",
+                "transmission": "Automatic 5-speed",
+                "fuel_economy_kpl": {
+                  "city": 7.6,
+                  "highway": 11.1,
+                  "combined": 9.0
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Tacoma",
+            "decade": "2010s",
+            "segment": "Mid-size Pickup",
+            "years_produced": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "2.7L I4",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 9.8,
+                  "highway": 12.8,
+                  "combined": 11.1
+                }
+              },
+              {
+                "engine": "3.5L V6",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 8.5,
+                  "highway": 11.9,
+                  "combined": 9.8
                 }
               }
             ]
@@ -614,6 +740,101 @@ const databaseAutos = [
                 }
               }
             ]
+          },
+          {
+            "model_name": "Silverado / Cheyenne",
+            "decade": "2010s",
+            "segment": "Full-size Pickup",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "5.3L V8 EcoTec3",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 7.6,
+                  "highway": 11.5,
+                  "combined": 9.2
+                }
+              },
+              {
+                "engine": "6.2L V8 EcoTec3",
+                "transmission": "Automatic 8-speed",
+                "fuel_economy_kpl": {
+                  "city": 6.8,
+                  "highway": 10.6,
+                  "combined": 8.3
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Aveo",
+            "decade": "2010s",
+            "segment": "Subcompact",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015],
+            "variants": [
+              {
+                "engine": "1.6L I4",
+                "transmission": "Manual 5-speed",
+                "fuel_economy_kpl": {
+                  "city": 11.9,
+                  "highway": 16.2,
+                  "combined": 13.6
+                }
+              },
+              {
+                "engine": "1.6L I4",
+                "transmission": "Automatic 4-speed",
+                "fuel_economy_kpl": {
+                  "city": 10.2,
+                  "highway": 14.0,
+                  "combined": 11.7
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Malibu",
+            "decade": "2010s",
+            "segment": "Mid-size Sedan",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+            "variants": [
+              {
+                "engine": "2.5L I4 Ecotec",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 10.6,
+                  "highway": 15.3,
+                  "combined": 12.5
+                }
+              },
+              {
+                "engine": "2.0L Turbo I4",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 9.4,
+                  "highway": 13.6,
+                  "combined": 11.1
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Impala",
+            "decade": "2010s",
+            "segment": "Full-size Sedan",
+            "years_produced": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+            "variants": [
+              {
+                "engine": "3.6L V6",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 9.8,
+                  "highway": 14.9,
+                  "combined": 11.9
+                }
+              }
+            ]
           }
         ]
       }
@@ -821,6 +1042,359 @@ const databaseAutos = [
                   "city": 12.8,
                   "highway": 18.7,
                   "combined": 15.1
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "F-150 / Lobo",
+            "decade": "2010s",
+            "segment": "Full-size Pickup",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "3.5L EcoBoost V6",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 8.5,
+                  "highway": 12.3,
+                  "combined": 10.0
+                }
+              },
+              {
+                "engine": "5.0L V8 Coyote",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 7.2,
+                  "highway": 11.1,
+                  "combined": 8.9
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Focus",
+            "decade": "2010s",
+            "segment": "Compact",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+            "variants": [
+              {
+                "engine": "2.0L I4 Duratec",
+                "transmission": "Manual 5-speed",
+                "fuel_economy_kpl": {
+                  "city": 10.6,
+                  "highway": 14.5,
+                  "combined": 12.2
+                }
+              },
+              {
+                "engine": "2.0L I4 Duratec",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 9.8,
+                  "highway": 13.6,
+                  "combined": 11.3
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Fusion",
+            "decade": "2010s",
+            "segment": "Mid-size Sedan",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+            "variants": [
+              {
+                "engine": "2.5L I4 Duratec",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 10.2,
+                  "highway": 14.9,
+                  "combined": 12.1
+                }
+              },
+              {
+                "engine": "2.0L EcoBoost I4",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 9.4,
+                  "highway": 13.6,
+                  "combined": 11.1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "corporation": "Nissan Motor Corporation",
+    "headquarters": "Japón",
+    "brands": [
+      {
+        "name": "Nissan",
+        "models": [
+          {
+            "model_name": "NP300 / Frontier",
+            "decade": "2010s",
+            "segment": "Mid-size Pickup",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "2.5L I4",
+                "transmission": "Manual 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 9.4,
+                  "highway": 12.8,
+                  "combined": 10.8
+                }
+              },
+              {
+                "engine": "4.0L V6",
+                "transmission": "Automatic 5-speed",
+                "fuel_economy_kpl": {
+                  "city": 7.6,
+                  "highway": 11.1,
+                  "combined": 9.0
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Versa",
+            "decade": "2010s",
+            "segment": "Subcompact",
+            "years_produced": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "1.6L I4 HR16DE",
+                "transmission": "Manual 5-speed",
+                "fuel_economy_kpl": {
+                  "city": 12.8,
+                  "highway": 17.0,
+                  "combined": 14.5
+                }
+              },
+              {
+                "engine": "1.6L I4 HR16DE",
+                "transmission": "Automatic CVT",
+                "fuel_economy_kpl": {
+                  "city": 14.0,
+                  "highway": 18.7,
+                  "combined": 15.9
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Sentra",
+            "decade": "2010s",
+            "segment": "Compact",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "1.8L I4 MR18DE",
+                "transmission": "Automatic CVT",
+                "fuel_economy_kpl": {
+                  "city": 11.9,
+                  "highway": 16.2,
+                  "combined": 13.6
+                }
+              },
+              {
+                "engine": "2.0L I4 MR20DE",
+                "transmission": "Automatic CVT",
+                "fuel_economy_kpl": {
+                  "city": 11.1,
+                  "highway": 15.3,
+                  "combined": 12.8
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "March",
+            "decade": "2010s",
+            "segment": "Subcompact",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015],
+            "variants": [
+              {
+                "engine": "1.6L I4 HR16DE",
+                "transmission": "Manual 5-speed",
+                "fuel_economy_kpl": {
+                  "city": 12.8,
+                  "highway": 17.4,
+                  "combined": 14.6
+                }
+              },
+              {
+                "engine": "1.6L I4 HR16DE",
+                "transmission": "Automatic 4-speed",
+                "fuel_economy_kpl": {
+                  "city": 11.1,
+                  "highway": 15.3,
+                  "combined": 12.8
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Kicks",
+            "decade": "2020s",
+            "segment": "Subcompact SUV",
+            "years_produced": [2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "1.6L I4 HR16DE",
+                "transmission": "Automatic CVT",
+                "fuel_economy_kpl": {
+                  "city": 11.9,
+                  "highway": 16.2,
+                  "combined": 13.6
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "X-Trail",
+            "decade": "2010s",
+            "segment": "Compact SUV",
+            "years_produced": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "2.5L I4 QR25DE",
+                "transmission": "Automatic CVT",
+                "fuel_economy_kpl": {
+                  "city": 9.8,
+                  "highway": 13.6,
+                  "combined": 11.3
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "corporation": "Kia Corporation",
+    "headquarters": "Corea del Sur",
+    "brands": [
+      {
+        "name": "Kia",
+        "models": [
+          {
+            "model_name": "K3",
+            "decade": "2020s",
+            "segment": "Compact",
+            "years_produced": [2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "1.6L I4",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 11.9,
+                  "highway": 16.6,
+                  "combined": 13.8
+                }
+              },
+              {
+                "engine": "2.0L I4",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 10.6,
+                  "highway": 15.3,
+                  "combined": 12.5
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Seltos",
+            "decade": "2020s",
+            "segment": "Subcompact SUV",
+            "years_produced": [2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "1.6L Turbo I4",
+                "transmission": "Automatic 7-speed DCT",
+                "fuel_economy_kpl": {
+                  "city": 10.2,
+                  "highway": 14.0,
+                  "combined": 11.7
+                }
+              },
+              {
+                "engine": "2.0L I4",
+                "transmission": "Automatic CVT",
+                "fuel_economy_kpl": {
+                  "city": 11.1,
+                  "highway": 14.9,
+                  "combined": 12.6
+                }
+              }
+            ]
+          },
+          {
+            "model_name": "Sportage",
+            "decade": "2010s",
+            "segment": "Compact SUV",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "2.4L I4",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 9.4,
+                  "highway": 13.2,
+                  "combined": 11.1
+                }
+              },
+              {
+                "engine": "2.0L Turbo I4",
+                "transmission": "Automatic 6-speed",
+                "fuel_economy_kpl": {
+                  "city": 8.5,
+                  "highway": 11.9,
+                  "combined": 9.8
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "corporation": "Honda Motor Company",
+    "headquarters": "Japón",
+    "brands": [
+      {
+        "name": "Honda",
+        "models": [
+          {
+            "model_name": "CR-V",
+            "decade": "2010s",
+            "segment": "Compact SUV",
+            "years_produced": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            "variants": [
+              {
+                "engine": "2.4L I4",
+                "transmission": "Automatic 5-speed",
+                "fuel_economy_kpl": {
+                  "city": 10.2,
+                  "highway": 13.6,
+                  "combined": 11.5
+                }
+              },
+              {
+                "engine": "1.5L Turbo I4",
+                "transmission": "Automatic CVT",
+                "fuel_economy_kpl": {
+                  "city": 11.9,
+                  "highway": 15.7,
+                  "combined": 13.4
                 }
               }
             ]
